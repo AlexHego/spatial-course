@@ -48,3 +48,4 @@ The course is organized into chapters located in the `docs/` folder:
 - Chapter 3 – Instance segmentation
 - Chapter 4 – Exporting spatial data to Python
 
+## License
