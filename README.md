@@ -10,60 +10,26 @@ The purpose of this course is to introduce the main concepts and workflows used 
 
 In addition to QuPath, graphical tools such as CytoMAP are used as intermediate steps to illustrate clustering and neighborhood analysis concepts before introducing Python-based implementations.
 
-
-## Course overview
-
-This course introduces the main concepts and practical steps required to analyze spatial multiplex imaging data.
-
-## Course overview
-
-This course introduces the main concepts and practical workflows required to analyze spatial multiplex imaging data, from images to interpretable spatial patterns.
-
-it covers:
-
-- Image-based analysis using QuPath:
-  - tissue detection through pixel classification
-  - cell segmentation using deep learning approaches such as StarDist, Cellpose, or InstanSeg
-  - quality control and filtering of segmented objects
-  - object classification using thresholding and machine learning methods (e.g. random forests)
-  - extraction and export of per-cell measurements and spatial information
-
-- Graphical spatial analysis with CytoMAP:
-  - data standardization and normalization 
-  - overview of common clustering algorithms 
-  - definition of spatial neighborhoods and regions
-  - introduction to spatial statistics 
-  - visualization and interpretation of spatial patterns without requiring programming
-
-- Advanced analysis in Python:
-  - data standardisation and normalization
-  - high-dimensional cell clustering
-  - spatial neighborhood and microenvironment analysis
-  - interpretation of spatial patterns, assumptions, and methodological limitations
-
-The focus of the course is on understanding workflows, concepts, and analytical choices, rather than on providing black-box pipelines. While CytoMAP is used as a graphical tool to introduce clustering and neighborhood analysis concepts, advanced users may choose to move directly from QuPath to Python-based workflows.
-
-
 ## Prerequisites
 
-Basic familiarity with microscopy concepts is assumed.
+Basic familiarity with microscopy concepts is assumed. Additional background resources and references are provided within the relevant chapters when appropriate.
 No advanced programming skills are required, and Python is introduced progressively when needed.
 
-For readers who wish to learn or refresh concepts, the following resources may be helpful:
-- GloBIAS training resources: https://neubias.github.io/training-resources/all-modules/
-- QuPath documentation: https://qupath.readthedocs.io/en/stable/docs/intro/about.html
+## Course overview
+
+This course introduces the main concepts and workflows required to analyze spatial multiplex imaging data, from images to interpretable spatial patterns.
+
+The course is structured around three complementary stages:
+image-based analysis in QuPath, graphical spatial exploration with CytoMAP, and programmable spatial analysis in Python.
+
+QuPath is used to transform multiplex images into single-cell data through tissue detection, cell segmentation, object classification, quality control,
+and feature extraction. CytoMAP is then introduced as a graphical tool to make clustering and spatial neighborhood concepts explicit and accessible. Finally, Python-based workflows are presented as a flexible and extensible option for advanced spatial analysis.
+
+The focus of the course is on understanding workflows, concepts, and analytical choices rather than providing black-box pipelines. While CytoMAP is used to introduce spatial analysis concepts, advanced users may choose to move directly from QuPath to Python-based workflows.
 
 ## Course structure
 
 The course is organized into chapters located in the `docs/` folder:
-
-## Course structure
-
-The course is organized into chapters located in the `docs/` folder:
-
-## Course structure
-
-The course is organized into chapters located in the `docs/` folder and follows a progressive workflow from image-based analysis to spatial data analysis:
 
 - [Chapter 1 – QuPath basics and project setup](docs/01_qupath_basics.md)  
 - [Chapter 2 – Tissue detection and cell segmentation](docs/02_segmentation.md)  
@@ -73,8 +39,6 @@ The course is organized into chapters located in the `docs/` folder and follows 
 - [Chapter 6 – Graphical spatial analysis with CytoMAP](docs/06_cytomap_spatial_analysis.md)  
 - [Chapter 7 – Transition CytoMAP to Python](docs/07_cytomap_to_python.md)  
 - [Chapter 8 – Advanced spatial analysis in Python](docs/08_python_spatial_analysis.md)  
-
-
 
 
 ## License
